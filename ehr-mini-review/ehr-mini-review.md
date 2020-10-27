@@ -38,5 +38,8 @@ This document provides a list of documents and links to papers and projects deal
 
 ### [eICU dataset](https://eicu-crd.mit.edu/)
 
-Currently cited by 146 according to [Google Scholar](https://scholar.google.no/scholar?cites=11878669525996073977&as_sdt=2005&sciodt=0,5&hl=en). I have not yet looked trough these.
+Currently cited by 146 according to [Google Scholar](https://scholar.google.no/scholar?cites=11878669525996073977&as_sdt=2005&sciodt=0,5&hl=en). I have not yet looked trough these completely
 
+Potential papers to look into
+
+- [Gastrointestinal bleeding, using "interpretable" methods](https://journals.lww.com/ajg/Fulltext/2020/10000/Explainable_Machine_Learning_Model_for_Predicting.22.aspx). Is this related to Anastomosis Leakage?
