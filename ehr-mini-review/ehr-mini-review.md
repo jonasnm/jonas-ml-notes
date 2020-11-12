@@ -59,8 +59,24 @@ Summary of DL techniques and EHR related challenges:
 #### [A REVIEW OF DEEP LEARNING METHODS FOR IRREGULARLY
 SAMPLED MEDICAL TIME SERIES DATA](https://arxiv.org/pdf/2010.12493.pdf) -- Sun et al. 2020, arXiv preprint
 
+Two categories: Missing data based and raw data based methods.
+
+Tasks: data imputation oriented and downstream task oriented. 
+
+---
+#### Master thesis Stavland supervised by Lundervold
+
+XGBoost on the MIMIC III database. Used mimic-extract to pre-process/get access to the data. 
+
+Predicting ICD 10 codes from text. 
+- Multi-label text classification
+- ULMFIT and BERT (BlueBert)
+- MIMIC III database
+- 139 unique codes. Removed HTML tags from text
+- Ulmfit gives the best results (by a small margin)
 
 
+---
 ## Public datasets (other than MIMIC)
 
 ### [eICU dataset](https://eicu-crd.mit.edu/)
@@ -74,6 +90,7 @@ Potential papers to look into
 - [Unsupervised Representation for EHR Signals andCodes as Patient Status Vector](https://arxiv.org/pdf/1910.01803.pdf)
 - [Improved recurrent generative adversarial networks with regularization techniques and a controllable framework](https://www.sciencedirect.com/science/article/pii/S0020025520305417)
 - [DPSOM: Deep Probabilistic Clusteringwith Self-Organizing Maps](https://arxiv.org/pdf/1910.01590.pdf)
+- [Analyzing the role of model uncertainty for electronic health records](https://dl.acm.org/doi/abs/10.1145/3368555.3384457?casa_token=1DOErfF0Tp8AAAAA%3ALZeYTElWlay0z0n0OcCyFQwH5z7O733H0Bsyp6Lj5LvG6QMqBTieBWD1RtLWtAoAGKgMVBrwH9yrLg)
 
 ## Rantings and ravings
 
