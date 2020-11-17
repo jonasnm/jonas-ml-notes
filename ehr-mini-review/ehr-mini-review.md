@@ -1,3 +1,6 @@
+---
+tags: MLandHealth
+---
 # ML and EHRs mini-review
 
 This document provides a list of documents and links to papers and projects dealing with EHRs and "modern" machine learning. 
@@ -98,3 +101,10 @@ Update 02.11.2020: as is common for most recent deep learning developments, much
 
 I would vote for a deep dive into the old Quake database to try to identify new problems related to our data. Trying to fit our data to whatever other people are doing with their data is going to be a lot of work and, at best, incremental. Or is that putting it too harshly?
 
+**Update 17.11.2020**
+
+Viable options for proceeding:
+- Continue in the Time Series direction?
+- NLP
+- Graph based stuff? GCN etc
+- (Periscope) text to ICD10 is something that can be looked into 
