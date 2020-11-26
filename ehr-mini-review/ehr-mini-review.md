@@ -5,6 +5,8 @@ tags: MLandHealth
 
 This document provides a list of documents and links to papers and projects dealing with EHRs and "modern" machine learning. 
 
+## Table of contents
+[TOC]
 
 ## Venues 
 - [ML for health workshop](https://www.mlforhc.org/accepted-papers)
@@ -17,6 +19,8 @@ This document provides a list of documents and links to papers and projects deal
 - [Opportunities and challenges in developing deep learning models using electronic health records data: a systematic review](https://academic.oup.com/jamia/article/25/10/1419/5035024) -- Edward Choi.
 - [A REVIEW OF DEEP LEARNING METHODS FOR IRREGULARLY
 SAMPLED MEDICAL TIME SERIES DATA](https://arxiv.org/pdf/2010.12493.pdf) -- Sun et al. 2020, arXiv preprint
+- [Attention is not explanation](https://arxiv.org/pdf/1902.10186.pdf) -> learned  attention  weights  are  frequently uncorrelated with gradient-based measures of feature importance"
+- [Master thesis MIMIC Bergen](http://bora.uib.no/bitstream/handle/1956/24107/Master_thesis_2020___Stavland.pdf?sequence=1&isAllowed=y)
 
 ### From mlforhc 2020
 - [Neural Conditional Event Time Models](https://www.mlforhc.org/s/50_CameraReadySubmission_MLHC_2020.pdf)
@@ -59,15 +63,14 @@ Summary of DL techniques and EHR related challenges:
 
 ---
 
-#### [A REVIEW OF DEEP LEARNING METHODS FOR IRREGULARLY
-SAMPLED MEDICAL TIME SERIES DATA](https://arxiv.org/pdf/2010.12493.pdf) -- Sun et al. 2020, arXiv preprint
+#### [A REVIEW OF DEEP LEARNING METHODS FOR IRREGULARLY SAMPLED MEDICAL TIME SERIES DATA](https://arxiv.org/pdf/2010.12493.pdf) -- Sun et al. 2020, arXiv preprint
 
 Two categories: Missing data based and raw data based methods.
 
 Tasks: data imputation oriented and downstream task oriented. 
 
 ---
-#### Master thesis Stavland supervised by Lundervold
+#### [Master thesis Stavland supervised by Lundervold](http://bora.uib.no/bitstream/handle/1956/24107/Master_thesis_2020___Stavland.pdf?sequence=1&isAllowed=y)
 
 XGBoost on the MIMIC III database. Used mimic-extract to pre-process/get access to the data. 
 
@@ -78,6 +81,7 @@ Predicting ICD 10 codes from text.
 - 139 unique codes. Removed HTML tags from text
 - Ulmfit gives the best results (by a small margin)
 
+ mortality  and  length  of  stay.  
 
 ---
 ## Public datasets (other than MIMIC)
@@ -86,14 +90,14 @@ Predicting ICD 10 codes from text.
 
 Currently cited by 146 according to [Google Scholar](https://scholar.google.no/scholar?cites=11878669525996073977&as_sdt=2005&sciodt=0,5&hl=en). I have not yet looked trough these completely
 
-Potential papers to look into
+#### Potential papers to look into citing eICU
 
 - [Gastrointestinal bleeding, using "interpretable" methods](https://journals.lww.com/ajg/Fulltext/2020/10000/Explainable_Machine_Learning_Model_for_Predicting.22.aspx). Is this related to Anastomosis Leakage?
 - [Explainable Uncertainty-Aware ConvolutionalRecurrent Neural Network for IrregularMedical Time Series](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9224838)
 - [Unsupervised Representation for EHR Signals andCodes as Patient Status Vector](https://arxiv.org/pdf/1910.01803.pdf)
 - [Improved recurrent generative adversarial networks with regularization techniques and a controllable framework](https://www.sciencedirect.com/science/article/pii/S0020025520305417)
 - [DPSOM: Deep Probabilistic Clusteringwith Self-Organizing Maps](https://arxiv.org/pdf/1910.01590.pdf)
-- [Analyzing the role of model uncertainty for electronic health records](https://dl.acm.org/doi/abs/10.1145/3368555.3384457?casa_token=1DOErfF0Tp8AAAAA%3ALZeYTElWlay0z0n0OcCyFQwH5z7O733H0Bsyp6Lj5LvG6QMqBTieBWD1RtLWtAoAGKgMVBrwH9yrLg)
+- [Analyzing the role of model uncertainty for electronic health records](https://dl.acm.org/doi/abs/10.1145/3368555.3384457?casa_token=1DOErfF0Tp8AAAAA%3ALZeYTElWlay0z0n0OcCyFQwH5z7O733H0Bsyp6Lj5LvG6QMqBTieBWD1RtLWtAoAGKgMVBrwH9yrLg) -- [PDF](https://dl.acm.org/doi/pdf/10.1145/3368555.3384457)
 
 ## Rantings and ravings
 
@@ -108,3 +112,7 @@ Viable options for proceeding:
 - NLP
 - Graph based stuff? GCN etc
 - (Periscope) text to ICD10 is something that can be looked into 
+
+**24.11.2020**
+- Clinical challenges? 
+- Data sets: MIMIC, eICU, QUAKE I and II
